@@ -72,9 +72,9 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'fhjjhjjkkfgjk') # Publ
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TMR_movie_request_group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/the_movie_rock')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TMR_update_channel')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TMR_how_to_downlod/2')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TMR_Movie_request') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TMR_movie_request_group') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
