@@ -51,7 +51,7 @@ async def start(client, message):
                 InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK),
                 InlineKeyboardButton('🧑‍💻 ᴏᴡɴᴇʀ 🧑‍💻', url='https://t.me/TMR_DEVELOPER')
             ],[
-                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
+                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='buy_premium')
             ]]
         else:
             buttons = [[
@@ -60,7 +60,7 @@ async def start(client, message):
                 InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK),
                 InlineKeyboardButton('🧑‍💻 ᴏᴡɴᴇʀ 🧑‍💻', url='https://t.me/TMR_DEVELOPER')
             ],[
-                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='subscription')
+                InlineKeyboardButton('🪙 ɢᴇᴛ ғʀᴇᴇ/ᴘᴀɪᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🪙', callback_data='buy_premium')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgIAAxkBAAKjYmZkRgOAtKRZ1d8LHnLAKUtus9noAAIjAAMoD2oUJ1El54wgpAY1BA") 
