@@ -4,9 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>Jᴀɪ sʜʀᴇᴇ Rᴀᴍ 🚩 {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>
-    
-Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href="https://www.google.com/">Google</a> Spelling..!! \n\n🧑‍💻 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/TMR_DEVELOPER">Vishal</a></b>"""
+    START_TXT = """<b>Jᴀɪ sʜʀᴇᴇ Rᴀᴍ 🚩 {}, /n/nHere You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper <a href="https://www.google.com/">Google</a> Spelling..!! \n\n<blockquote>🧑‍💻 ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/TMR_DEVELOPER">Vishal</a></blockquote></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
