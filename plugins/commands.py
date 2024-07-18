@@ -55,6 +55,11 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
+                InlineKeyboardButton(text="🏡", url=CHNL_LNK),
+                InlineKeyboardButton(text="🛡", url=GRP_LNK),
+                InlineKeyboardButton(text="💳", callback_data="buy_premium"),
+                InlineKeyboardButton(text="💸", callback_data="shortlink_info"),
+            ],[
                 InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK),
