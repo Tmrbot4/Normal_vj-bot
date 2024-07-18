@@ -29,6 +29,11 @@ async def start(client, message):
         await message.react(emoji="👻", big=True)
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
+            InlineKeyboardButton(text="🏡", url=CHNL_LNK),
+            InlineKeyboardButton(text="🛡", url=GRP_LNK),
+            InlineKeyboardButton(text="💳", callback_data="buy_premium"),
+            InlineKeyboardButton(text="💸", callback_data="shortlink_info"),
+        ],[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/TMR_movie_request_group"),
